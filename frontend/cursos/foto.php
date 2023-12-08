@@ -149,14 +149,14 @@
                         <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../cursos/mostrar.php">Cursos</a></li>
+    <li class="breadcrumb-item"><a href="../cursos/mostrar.php">Áreas</a></li>
     <li class="breadcrumb-item active" aria-current="page">Actualizar</li>
   </ol>
 </nav>
  
  <div class="card" style="min-height:485px">
      <div class="card-header card-header-text">
-       <h4 class="card-title">Actualizar foto del curso</h4>  
+       <h4 class="card-title">Actualizar foto del Área</h4>  
      </div>
      <div class="card-content table-responsive">
   <div class="alert alert-warning">
@@ -182,7 +182,7 @@ if($sentencia){
   <div class="row">
       <div class="col-md-6 col-lg-6">
      <div class="form-group">
-    <label for="email">Nombre del curso<span class="text-danger">*</span></label>
+    <label for="email">Nombre del Área<span class="text-danger">*</span></label>
     <input type="text" disabled class="form-control" value="<?php echo  $f->nomcur; ?>" name="txtnamcour" placeholder="ejm: Matemáticas">
     <input type="hidden" name="txtidcour" value="<?php echo  $f->idcur; ?>">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
@@ -191,7 +191,7 @@ if($sentencia){
 
     <div class="col-md-6 col-lg-6">
   <div class="form-group">
-    <label for="email">Foto del curso<span class="text-danger">*</span></label>
+    <label for="email">Foto del Área<span class="text-danger">*</span></label>
    
      <input type="file"  required id="imagen" name="foto" onchange="readURL(this);" data-toggle="tooltip">
     <img id="blah" src="../../backend/img/subidas/<?php echo $f->foto; ?>" width="100" heigth="100" alt="your image" style="max-width:90px;" />

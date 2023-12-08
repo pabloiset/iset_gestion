@@ -150,13 +150,13 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../padres/mostrar.php">Padres</a></li>
+    <li class="breadcrumb-item"><a href="../padres/mostrar.php">Familia</a></li>
     <li class="breadcrumb-item active" aria-current="page">Actualizar</li>
   </ol>
 </nav>
                        <div class="card" style="min-height:485px">
                            <div class="card-header card-header-text">
-                               <h4 class="card-title">Actualizar padres</h4>
+                               <h4 class="card-title">Actualizar familia</h4>
                                
                             </div>
                            

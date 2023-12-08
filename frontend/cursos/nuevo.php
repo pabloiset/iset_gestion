@@ -148,14 +148,14 @@
                         <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../cursos/mostrar.php">Cursos</a></li>
+    <li class="breadcrumb-item"><a href="../cursos/mostrar.php">Áreas</a></li>
     <li class="breadcrumb-item active" aria-current="page">Nuevo</li>
   </ol>
 </nav>
  
  <div class="card" style="min-height:485px">
      <div class="card-header card-header-text">
-       <h4 class="card-title">Nuevo cursos</h4>  
+       <h4 class="card-title">Nueva Área</h4>  
      </div>
      <div class="card-content table-responsive">
   <div class="alert alert-warning">
@@ -176,7 +176,7 @@
 
   <div class="col-md-6 col-lg-4">
     <div class="form-group">
-    <label for="email">Grado<span class="text-danger">*</span></label>
+    <label for="email">Carrera<span class="text-danger">*</span></label>
     <select class="form-control" id="grd" required name="txtgrd">
                                     
     </select>
@@ -200,7 +200,7 @@
   <div class="row">
       <div class="col-md-6 col-lg-6">
      <div class="form-group">
-    <label for="email">Nombre del curso<span class="text-danger">*</span></label>
+    <label for="email">Nombre del Área<span class="text-danger">*</span></label>
     <input type="text"  class="form-control"  name="txtnamcour" required placeholder="ejm: Matemáticas">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
 </div>    

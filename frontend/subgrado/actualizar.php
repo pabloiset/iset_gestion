@@ -148,7 +148,7 @@
                         <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../subgrado/mostrar.php">Subgrado Académico</a></li>
+    <li class="breadcrumb-item"><a href="../subgrado/mostrar.php">Año</a></li>
     <li class="breadcrumb-item active" aria-current="page">Actualizar</li>
   </ol>
 </nav>
@@ -156,7 +156,7 @@
 
 <div class="card" style="min-height:485px">
      <div class="card-header card-header-text">
-       <h4 class="card-title">Actualizar subgrado</h4>  
+       <h4 class="card-title">Actualizar Año</h4>  
      </div>
      <div class="card-content table-responsive">
   <div class="alert alert-warning">
@@ -211,7 +211,7 @@ if($sentencia){
 
   <div class="col-md-6 col-lg-6">
     <div class="form-group">
-    <label for="email">Grado<span class="text-danger">*</span></label>
+    <label for="email">Carrera<span class="text-danger">*</span></label>
     <select class="form-control" required name="txtgrd" id="periodo">
          <option value="<?php echo  $f->iddeg; ?>"><?php echo  $f->nomgra; ?></option>
          <option value="">---------------Seleccione una grado-------------------</option>                           
@@ -224,7 +224,7 @@ if($sentencia){
   <div class="row">
       <div class="col-md-6 col-lg-6">
      <div class="form-group">
-    <label for="email">Nombre del subgrado<span class="text-danger">*</span></label>
+    <label for="email">Nombre del Año<span class="text-danger">*</span></label>
     <input type="text" value="<?php echo  $f->nomsub; ?>" class="form-control"  name="txtnamsgrd" required placeholder="ejm: Inicial de 5 años">
     <input type="hidden" name="txtidsgrd" value="<?php echo  $f->idsub; ?>">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>

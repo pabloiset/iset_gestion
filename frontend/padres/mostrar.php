@@ -152,13 +152,13 @@
                         <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../padres/mostrar.php">Padres</a></li>
+    <li class="breadcrumb-item"><a href="../padres/mostrar.php">Familia</a></li>
     <li class="breadcrumb-item active" aria-current="page">Mostrar</li>
   </ol>
 </nav>
                        <div class="card" style="min-height:485px">
                            <div class="card-header card-header-text">
-                               <h4 class="card-title">Padres</h4>
+                               <h4 class="card-title">Familia</h4>
                            <a href="../padres/nuevo.php" class="btn btn-danger text-white"
                             ><i class='material-icons' data-toggle='tooltip' title='Add'>add</i></a>   
                             </div>
@@ -203,7 +203,7 @@ if($sentencia){
             <td>
          <?php    if($g->rol =='3')  { ?> 
 
-    <span class="badge badge-success">Padre</span>
+    <span class="badge badge-success">Familiar</span>
                <?php  }   else {?> 
     <span class="badge badge-danger">error</span>
      <?php  } ?>        

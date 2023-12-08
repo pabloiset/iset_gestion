@@ -150,7 +150,7 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../padres/mostrar.php">Padres</a></li>
+    <li class="breadcrumb-item"><a href="../padres/mostrar.php">Familia</a></li>
     <li class="breadcrumb-item active" aria-current="page">Crear perfil</li>
   </ol>
 </nav>

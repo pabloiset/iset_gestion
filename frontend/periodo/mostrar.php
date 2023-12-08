@@ -152,13 +152,13 @@
                         <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../periodo/mostrar.php">Periodo escolar</a></li>
+    <li class="breadcrumb-item"><a href="../periodo/mostrar.php">Ciclo escolar</a></li>
     <li class="breadcrumb-item active" aria-current="page">Mostrar</li>
   </ol>
 </nav>
                        <div class="card" style="min-height:485px">
                            <div class="card-header card-header-text">
-                               <h4 class="card-title">Periodo escolar</h4>
+                               <h4 class="card-title">Ciclo escolar</h4>
                                <a href="../periodo/nuevo.php" class="btn btn-danger text-white"
                             ><i class='material-icons' data-toggle='tooltip' title='Add'>add</i></a>
                             </div>

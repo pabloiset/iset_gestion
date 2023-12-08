@@ -150,13 +150,13 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../padres/mostrar.php">Padres</a></li>
+    <li class="breadcrumb-item"><a href="../padres/mostrar.php">Familia</a></li>
     <li class="breadcrumb-item active" aria-current="page">Nuevo</li>
   </ol>
 </nav>
                        <div class="card" style="min-height:485px">
                            <div class="card-header card-header-text">
-                               <h4 class="card-title">Nuevos padres</h4>
+                               <h4 class="card-title">Nuevos familiares</h4>
                                
                             </div>
                            
@@ -169,7 +169,7 @@
 <div class="row">
   <div class="col-md-6 col-lg-4">
    <div class="form-group">
-    <label for="email">DNI del padre<span class="text-danger">*</span></label>
+    <label for="email">DNI del familiar<span class="text-danger">*</span></label>
     <button type="button" id="buscar" class="btn btn-icon btn-round btn-dark btn-xs">
             <i class="material-icons">search</i>
     </button>
@@ -180,14 +180,14 @@
   </div>
   <div class="col-md-6 col-lg-4">
    <div class="form-group">
-    <label for="email">Nombre del padre<span class="text-danger">*</span></label>
+    <label for="email">Nombre del familiar<span class="text-danger">*</span></label>
     <input type="text"  class="form-control" id="nombres"  onkeypress="return soloLetras(event)" name="txtnamfa" required placeholder="ejm: laura">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
 </div>   
   </div>
   <div class="col-md-6 col-lg-4">
     <div class="form-group">
-    <label for="email">Profesion del padre<span class="text-danger">*</span></label>
+    <label for="email">Profesion del familiar<span class="text-danger">*</span></label>
     <input type="text"  class="form-control"  onkeypress="return soloLetras(event)" name="txtprofa" required placeholder="ejm: arquitectura">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
 </div>  
@@ -196,7 +196,7 @@
 <div class="row">
  <div class="col-md-6 col-lg-4">
   <div class="form-group">
-    <label for="email">Correo del padre<span class="text-danger">*</span></label>
+    <label for="email">Correo del familiar<span class="text-danger">*</span></label>
     <input type="email"  class="form-control"  name="txtcorfa" required placeholder="ejm: padre@gmail.com">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
 </div>   
@@ -204,7 +204,7 @@
 
  <div class="col-md-6 col-lg-4">
   <div class="form-group">
-    <label for="email">Telefono del padre<span class="text-danger">*</span></label>
+    <label for="email">Telefono del familiar<span class="text-danger">*</span></label>
     <input type="text" maxlength="9" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" class="form-control"  name="txttefa" required placeholder="ejm: 998989876">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
 </div>   
@@ -212,7 +212,7 @@
 
  <div class="col-md-6 col-lg-4">
   <div class="form-group">
-    <label for="email">Direccion del padre<span class="text-danger">*</span></label>
+    <label for="email">Direccion del familiar<span class="text-danger">*</span></label>
     <input type="text" class="form-control"  name="txtdirfa" required placeholder="ejm: av larco">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
 </div>   
@@ -223,7 +223,7 @@
 <div class="row">
   <div class="col-md-6 col-lg-4">
   <div class="form-group">
-    <label for="email">Foto del padre<span class="text-danger">*</span></label>
+    <label for="email">Foto del familiar<span class="text-danger">*</span></label>
    
      <input type="file"  id="imagen" name="foto" onchange="readURL(this);" data-toggle="tooltip"  required>
       <img id="blah" src="../../backend/img/noimage.png" width="100" heigth="100" alt="your image" style="max-width:90px;" />

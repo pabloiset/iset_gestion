@@ -150,7 +150,7 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../periodo/mostrar.php">Periodo escolar</a></li>
+    <li class="breadcrumb-item"><a href="../periodo/mostrar.php">Ciclo escolar</a></li>
     <li class="breadcrumb-item active" aria-current="page">Desactivar</li>
   </ol>
 </nav>

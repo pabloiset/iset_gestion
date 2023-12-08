@@ -148,7 +148,7 @@
                         <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../cursos/mostrar.php">Cursos</a></li>
+    <li class="breadcrumb-item"><a href="../cursos/mostrar.php">Áreas</a></li>
     <li class="breadcrumb-item active" aria-current="page">Desactivar</li>
   </ol>
 </nav>

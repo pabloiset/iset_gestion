@@ -154,14 +154,14 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../padres/mostrar.php">Padres</a></li>
+    <li class="breadcrumb-item"><a href="../padres/mostrar.php">Familia</a></li>
     <li class="breadcrumb-item active" aria-current="page">Hijos</li>
   </ol>
 </nav>
                        
  <div class="card" style="min-height:485px">
    <div class="card-header card-header-text">
-     <h4 class="card-title">Añadir los hijos de los padres</h4>  
+     <h4 class="card-title">Añadir los hijos de la familia</h4>  
    </div>
    <div class="card-content table-responsive">
     <?php
@@ -183,7 +183,7 @@ if($sentencia){
 <div class="row">
   <div class="col-md-6 col-lg-6">
    <div class="form-group">
-    <label for="email">DNI del padre<span class="text-danger">*</span></label>
+    <label for="email">DNI del familiar<span class="text-danger">*</span></label>
     <input type="text" readonly maxlength="8"  value="<?php echo  $f->dnifa; ?>" class="form-control"  placeholder="ejm: 76765654">
 </div>   
   </div>

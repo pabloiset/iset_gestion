@@ -148,7 +148,7 @@
                         <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../subgrado/mostrar.php">Subgrado Académico</a></li>
+    <li class="breadcrumb-item"><a href="../subgrado/mostrar.php">Año</a></li>
     <li class="breadcrumb-item active" aria-current="page">Desactivar</li>
   </ol>
 </nav>

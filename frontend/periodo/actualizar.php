@@ -150,13 +150,13 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../periodo/mostrar.php">Periodo escolar</a></li>
+    <li class="breadcrumb-item"><a href="../periodo/mostrar.php">Ciclo escolar</a></li>
     <li class="breadcrumb-item active" aria-current="page">Actualizar</li>
   </ol>
 </nav>
                        <div class="card" style="min-height:485px">
                            <div class="card-header card-header-text">
-                               <h4 class="card-title">Actualizar periodo escolar</h4>
+                               <h4 class="card-title">Actualizar ciclo escolar</h4>
                                
                             </div>
                            

@@ -149,14 +149,14 @@
                         <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../cursos/mostrar.php">Cursos</a></li>
+    <li class="breadcrumb-item"><a href="../cursos/mostrar.php">Área</a></li>
     <li class="breadcrumb-item active" aria-current="page">Actualizar</li>
   </ol>
 </nav>
  
  <div class="card" style="min-height:485px">
      <div class="card-header card-header-text">
-       <h4 class="card-title">Actualizar curso</h4>  
+       <h4 class="card-title">Actualizar Área</h4>  
      </div>
      <div class="card-content table-responsive">
   <div class="alert alert-warning">
@@ -206,7 +206,7 @@ if($sentencia){
 
   <div class="col-md-6 col-lg-4">
     <div class="form-group">
-    <label for="email">Grado<span class="text-danger">*</span></label>
+    <label for="email">Carrera<span class="text-danger">*</span></label>
     <select class="form-control" id="periodo" onchange="showselet(this.value)" required name="txtgrd">
          <option value="<?php echo $f->iddeg; ?>"><?php echo $f->nomgra; ?></option>                           
     </select>
@@ -216,7 +216,7 @@ if($sentencia){
 
   <div class="col-md-6 col-lg-4">
     <div class="form-group">
-    <label for="email">Subgrado<span class="text-danger">*</span></label>
+    <label for="email">Año<span class="text-danger">*</span></label>
     <select class="form-control" id="sub" required name="txtsgrd">
        <option value="<?php echo $f->idsub; ?>"><?php echo $f->nomsub; ?></option>                                   
     </select>
@@ -230,7 +230,7 @@ if($sentencia){
   <div class="row">
       <div class="col-md-6 col-lg-4">
      <div class="form-group">
-    <label for="email">Nombre del curso<span class="text-danger">*</span></label>
+    <label for="email">Nombre del Área<span class="text-danger">*</span></label>
     <input type="text" value="<?php echo $f->nomcur; ?>" class="form-control"  name="txtnamcour" required placeholder="ejm: Matemáticas">
     <input type="hidden" name="txtidcour" value="<?php echo $f->idcur; ?>">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>

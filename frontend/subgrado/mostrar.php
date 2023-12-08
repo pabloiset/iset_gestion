@@ -152,13 +152,13 @@
                         <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
   <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
-    <li class="breadcrumb-item"><a href="../subgrado/mostrar.php">Subgrado Académico</a></li>
+    <li class="breadcrumb-item"><a href="../subgrado/mostrar.php">Año</a></li>
     <li class="breadcrumb-item active" aria-current="page">Mostrar</li>
   </ol>
 </nav>
                        <div class="card" style="min-height:485px">
                            <div class="card-header card-header-text">
-                               <h4 class="card-title">Subgrado Académico</h4>
+                               <h4 class="card-title">Año</h4>
                            <a href="../subgrado/nuevo.php" class="btn btn-danger text-white"
                             ><i class='material-icons' data-toggle='tooltip' title='Add'>add</i></a>   
                             </div>
@@ -181,8 +181,8 @@ if($sentencia){
       <thead class="text-primary">
           <tr><th>#</th>
            <th>Periodo Escolar </th>
-           <th>Grado</th>
-           <th>Subgrado</th>
+           <th>Carrera</th>
+           <th>Año</th>
            <th>Estado</th>
            <th>Acciones</th>
            </tr>

@@ -180,7 +180,7 @@ if($sentencia){
   <div class="row">
     <div class="col-md-6 col-lg-4">
      <div class="form-group">
-    <label for="email">Nombre del grado<span class="text-danger">*</span></label>
+    <label for="email">Nombre de la carrera<span class="text-danger">*</span></label>
     <input type="text"  class="form-control" value="<?php echo  $f->nomgra; ?>" name="txtnamgrd" required placeholder="ejm: inicial">
     <input type="hidden" name="txtidgrd" value="<?php echo  $f->iddeg; ?>">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
