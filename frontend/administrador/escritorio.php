@@ -14,11 +14,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-<<<<<<< HEAD
+
         <title>ISET_MdP - plataforma virtual</title>
-=======
-        <title>ISET - plataforma virtual</title>
->>>>>>> 93594e39e278c5f71a6d628bd610f2324ff80645
+
          <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
          <!----css3---->
@@ -45,11 +43,7 @@
      <div class="body-overlay"></div>
      <nav id="sidebar">
             <div class="sidebar-header">
-<<<<<<< HEAD
-                <h3><img src="../../backend/img/favicon.png" class="img-fluid"/><span>ISET_MdP</span></h3>
-=======
-                <h3><img src="../../backend/img/favicon.png" class="img-fluid"/><span>Iset_MdP</span></h3>
->>>>>>> 93594e39e278c5f71a6d628bd610f2324ff80645
+                <h3><img src="../../backend/img/favicon.png" class="img-fluid"/><span>Iset_mdp</span></h3>
             </div>
             <ul class="list-unstyled components">
                <li  class="active">
@@ -75,13 +69,13 @@
                </li>
 
                <li  class="">
-                    <a href="../cursos/mostrar.php"><i class="material-icons">school</i><span>Cursos</span></a>
+                    <a href="../cursos/mostrar.php"><i class="material-icons">school</i><span>Área</span></a>
                </li>
                <li  class="">
-                    <a href="../grado/mostrar.php"><i class="material-icons">square_foot</i><span>Grado</span></a>
+                    <a href="../grado/mostrar.php"><i class="material-icons">square_foot</i><span>Carrera</span></a>
                </li>
                <li  class="">
-                    <a href="../subgrado/mostrar.php"><i class="material-icons">history_edu</i><span>Subgrado</span></a>
+                    <a href="../subgrado/mostrar.php"><i class="material-icons">history_edu</i><span>Año</span></a>
                </li>
                <li  class="">
                     <a href="../seccion/mostrar.php"><i class="material-icons">card_membership</i><span>Sección</span></a>
@@ -101,7 +95,7 @@
 
            
         </nav>
-
+        
         <div id="content">
              
              <!--top--navbar----design--------->

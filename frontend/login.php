@@ -10,15 +10,15 @@ include_once './backend/php/ctlogx.php'
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Colegio peruano - plataforma virtual</title>
+    <title>Iset_mdp- plataforma virtual</title>
     <link rel="stylesheet" type="text/css" href="./backend/css/login.css">
     <link rel="shortcut icon" href="./backend/img/favicon.png" />
   </head>
   <body>
     <div class="login-page">
       <div class="form">
-        <img src="./backend/img/logo-dark.png" alt="Colegio peruano logo" />
-        <?php 
+      <img src="./backend/img/logo-dark.jpg" alt="iset logo"width="200" height="100" />
+       <?php 
                             if (isset($errMsg)) {
                                 echo '
     <div style="color:#FF0000;text-align:center;font-size:20px; font-weight:bold;">'.$errMsg.'</div>

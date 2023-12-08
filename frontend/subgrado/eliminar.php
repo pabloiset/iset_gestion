@@ -14,7 +14,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-        <title>Colegio peruano - plataforma virtual</title>
+       <title>ISET- plataforma virtual</title>
          <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
          <!----css3---->
@@ -37,15 +37,15 @@
      <div class="body-overlay"></div>
      <nav id="sidebar">
             <div class="sidebar-header">
-                <h3><img src="../../backend/img/favicon.png" class="img-fluid"/><span>Colegio peruano</span></h3>
+                <h3><img src="../../backend/img/favicon.png" class="img-fluid"/><span>Iset_mdp</span></h3>
             </div>
             <ul class="list-unstyled components">
-               <li  class="">
-                    <a href="../administrador/escritorio.php" class="dashboard"><i class="material-icons">dashboard</i><span>Dashboard</span></a>
+               <li  class="active">
+                    <a href="../administrador/escritorio.php" class="dashboard"><i class="material-icons">dashboard</i><span>Escritorio</span></a>
                 </li>
           
                <li class="">
-                    <a href="../periodo/mostrar.php"><i class="material-icons">calendar_month</i><span>Periodo Escolar</span></a>
+                    <a href="../periodo/mostrar.php"><i class="material-icons">calendar_month</i><span>Ciclo Escolar</span></a>
                 </li>
                     
                <li  class="">
@@ -53,7 +53,7 @@
                </li>
 
                <li  class="">
-                    <a href="../padres/mostrar.php"><i class="material-icons">group</i><span>Padres</span></a>
+                    <a href="../padres/mostrar.php"><i class="material-icons">group</i><span>Familia</span></a>
                </li>
                <li  class="">
                     <a href="../docentes/mostrar.php"><i class="material-icons">badge</i><span>Docentes</span></a>
@@ -63,13 +63,13 @@
                </li>
 
                <li  class="">
-                    <a href="../cursos/mostrar.php"><i class="material-icons">school</i><span>Cursos</span></a>
+                    <a href="../cursos/mostrar.php"><i class="material-icons">school</i><span>Área</span></a>
                </li>
                <li  class="">
-                    <a href="../grado/mostrar.php"><i class="material-icons">square_foot</i><span>Grado</span></a>
+                    <a href="../grado/mostrar.php"><i class="material-icons">square_foot</i><span>Carrera</span></a>
                </li>
-               <li  class="active">
-                    <a href="../subgrado/mostrar.php"><i class="material-icons">history_edu</i><span>Subgrado</span></a>
+               <li  class="">
+                    <a href="../subgrado/mostrar.php"><i class="material-icons">history_edu</i><span>Año</span></a>
                </li>
                <li  class="">
                     <a href="../seccion/mostrar.php"><i class="material-icons">card_membership</i><span>Sección</span></a>
@@ -89,6 +89,7 @@
 
            
         </nav>
+        
 
         <div id="content">
              
