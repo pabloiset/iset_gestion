@@ -14,7 +14,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-        <title>Colegio peruano - plataforma virtual</title>
+        <title>ISET - plataforma virtual</title>
          <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
          <!----css3---->
@@ -41,7 +41,7 @@
      <div class="body-overlay"></div>
      <nav id="sidebar">
             <div class="sidebar-header">
-                <h3><img src="../../backend/img/favicon.png" class="img-fluid"/><span>Colegio peruano</span></h3>
+                <h3><img src="../../backend/img/favicon.png" class="img-fluid"/><span>Iset_MdP</span></h3>
             </div>
             <ul class="list-unstyled components">
                <li  class="active">
