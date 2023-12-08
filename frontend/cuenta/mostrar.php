@@ -100,7 +100,7 @@
                        <span class="material-icons">arrow_back_ios</span>
                      </button>
                      
-                     <a class="navbar-brand" href="#">Dashboard</a>
+                     <a class="navbar-brand" href="#">Escritorio</a>
                      <button class="d-inline-block d-lg-none ml-auto more-button" type="button" data-toggle="collapse"
                        data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle">
                         <span class="material-icons">more_vert</span>
@@ -129,8 +129,7 @@
                          </li>
                          
                          <li class="nav-item">
-                           <a class="nav-link" href="../cuenta/configuracion.php"><span class="material-icons">settings</span></a>
-                         </li>
+                          <!-- <a class="nav-link" href="../cuenta/configuracion.php"><span class="material-icons">settings</span></a> -->  </li>
                         
                          </ul>
                      

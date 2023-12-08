@@ -100,7 +100,7 @@
                        <span class="material-icons">arrow_back_ios</span>
                      </button>
                      
-                     <a class="navbar-brand" href="#">Dashboard</a>
+                     <a class="navbar-brand" href="#">Escritorio</a>
                      <button class="d-inline-block d-lg-none ml-auto more-button" type="button" data-toggle="collapse"
                        data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle">
                         <span class="material-icons">more_vert</span>
@@ -129,8 +129,7 @@
                          </li>
                          
                          <li class="nav-item">
-                           <a class="nav-link" href="../cuenta/configuracion.php"><span class="material-icons">settings</span></a>
-                         </li>
+                           <!-- <a class="nav-link" href="../cuenta/configuracion.php"><span class="material-icons">settings</span></a> -->   </li>
                         
                          </ul>
                      
@@ -147,15 +146,15 @@
                     <div class="col-lg-12 col-md-12">
                         <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Dashboard</a></li>
-    <li class="breadcrumb-item"><a href="../grado/mostrar.php">Grado Académico</a></li>
+  <li class="breadcrumb-item"><a href="../administrador/escritorio.php">Escritorio</a></li>
+    <li class="breadcrumb-item"><a href="../grado/mostrar.php">Carrera</a></li>
     <li class="breadcrumb-item active" aria-current="page">Nuevo</li>
   </ol>
 </nav>
     
     <div class="card" style="min-height:485px">
      <div class="card-header card-header-text">
-       <h4 class="card-title">Nuevo grado</h4>  
+       <h4 class="card-title">Nuevo carrera</h4>  
      </div>
      <div class="card-content table-responsive">
   <div class="alert alert-warning">
@@ -166,7 +165,7 @@
   <div class="row">
     <div class="col-md-6 col-lg-6">
      <div class="form-group">
-    <label for="email">Nombre del grado<span class="text-danger">*</span></label>
+    <label for="email">Nombre de la carrera<span class="text-danger">*</span></label>
     <input type="text"  class="form-control"  name="txtnamgrd" required placeholder="ejm: inicial">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
 </div>    
