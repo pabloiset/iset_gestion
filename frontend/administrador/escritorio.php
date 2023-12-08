@@ -57,7 +57,7 @@
                </li>
 
                <li  class="">
-                    <a href="../padres/mostrar.php"><i class="material-icons">group</i><span>Padres</span></a>
+                    <a href="../padres/mostrar.php"><i class="material-icons">group</i><span>Familia</span></a>
                </li>
                <li  class="">
                     <a href="../docentes/mostrar.php"><i class="material-icons">badge</i><span>Docentes</span></a>
