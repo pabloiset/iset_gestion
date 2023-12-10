@@ -186,7 +186,7 @@
 
   <div class="col-md-6 col-lg-4">
     <div class="form-group">
-    <label for="email">Subgrado<span class="text-danger">*</span></label>
+    <label for="email">Año<span class="text-danger">*</span></label>
     <select class="form-control" id="sub" required name="txtsgrd">
                                     
     </select>

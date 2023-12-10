@@ -176,23 +176,23 @@
     <input type="text" maxlength="8" id="documento" class="form-control" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" name="txtdnist" required placeholder="ejm: 76765654">
 
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
-</div>   
-  </div>
-  <div class="col-md-6 col-lg-4">
+    </div>   
+   </div>
+   <div class="col-md-6 col-lg-4">
    <div class="form-group">
     <label for="email">Nombre del alumno<span class="text-danger">*</span></label>
     <input type="text"  class="form-control" id="nombres"  onkeypress="return soloLetras(event)" name="txtnamst" required placeholder="ejm: laura">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
-</div>   
-  </div>
-  <div class="col-md-6 col-lg-4">
+    </div>   
+    </div>
+   <div class="col-md-6 col-lg-4">
     <div class="form-group">
     <label for="email">Edad del alumno<span class="text-danger">*</span></label>
     <input type="text"  class="form-control"   name="txtedst" required placeholder="ejm: 15 años">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
-</div>  
-  </div>      
-</div>
+    </div>  
+   </div>      
+   </div>
 
 <div class="row">
   <div class="col-md-6 col-lg-4">
@@ -230,17 +230,17 @@
     <input type="date"  class="form-control" name="txtnacst" required >
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
 </div>   
-    </div>
-     <div class="col-md-6 col-lg-4">
-  <div class="form-group">
-    <label for="email">Foto del alumno<span class="text-danger">*</span></label>
+          </div>
+          <div class="col-md-6 col-lg-4">
+          <div class="form-group">
+         <label for="email">Foto del alumno<span class="text-danger">*</span></label>
    
-     <input type="file"  id="imagen" name="foto" onchange="readURL(this);" data-toggle="tooltip"  required>
-      <img id="blah" src="../../backend/img/noimage.png" width="100" heigth="100" alt="your image" style="max-width:90px;" />
-    <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
-</div>   
- </div>
-</div>
+         <input type="file"  id="imagen" name="foto" onchange="readURL(this);" data-toggle="tooltip"  required>
+         <img id="blah" src="../../backend/img/noimage.png" width="100" heigth="100" alt="your image" style="max-width:90px;" />
+         <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
+         </div>   
+         </div>
+         </div>
 
   <hr>
 <div class="form-group">
