@@ -30,7 +30,7 @@ include_once './backend/php/ctlogx.php'
           <input required name="usuario" value="<?php if(isset($_POST['usuario'])) echo $_POST['usuario'] ?>"  autocomplete="off" type="text" placeholder="Ingrese nombre de usuario" />
           <input required  name="clave" value="<?php if(isset($_POST['clave'])) echo MD5($_POST['clave']) ?>" type="password" placeholder="Contraseña" />
           <button name='ctxlog' type="submit">Acceder</button>
-          <p class="message"><a href="#">¿Has olvidado tu contraseña?</a></p>
+          <p class="message"><a href="recuperar_contraseña.php">¿Has olvidado tu contraseña?</a><
         </form>
       </div>
     </div>
