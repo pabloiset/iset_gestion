@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Envia un correo electrónico con el enlace que contiene el código de restablecimiento
         $asunto = "Recuperación de Contraseña";
         $mensaje = "Hola, has solicitado restablecer tu contraseña. Haz clic en el siguiente enlace para continuar:\n\n";
-        $mensaje .= "http://tudominio.com/restablecer_contraseña.php?codigo=$codigo_restablecimiento";
+        $mensaje .= "http://localhost/iset_gestion/recuperar_contraseña.php?codigo=$codigo_restablecimiento";
 
         // Envía el correo electrónico (puedes necesitar configurar la función mail() o utilizar un servicio externo)
         mail($correo, $asunto, $mensaje);
