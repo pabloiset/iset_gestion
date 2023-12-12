@@ -176,7 +176,7 @@
 
   <div class="col-md-6 col-lg-4">
     <div class="form-group">
-    <label for="email">Grado<span class="text-danger">*</span></label>
+    <label for="email">Carrera<span class="text-danger">*</span></label>
     <select class="form-control" id="grd" required >
                                     
     </select>
@@ -186,7 +186,7 @@
 
   <div class="col-md-6 col-lg-4">
     <div class="form-group">
-    <label for="email">Subgrado<span class="text-danger">*</span></label>
+    <label for="email">Año<span class="text-danger">*</span></label>
     <select class="form-control" id="sub" required name="txtsgrd">
                                     
     </select>
@@ -201,7 +201,7 @@
       
       <div class="col-md-6 col-lg-6">
      <div class="form-group">
-    <label for="email">Nombre del seccion<span class="text-danger">*</span></label>
+    <label for="email">Nombre de la seccion<span class="text-danger">*</span></label>
     <input type="text"  class="form-control"  name="txtnamsecc" required placeholder="ejm: 101">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
 </div>    
@@ -223,7 +223,7 @@
    
    <div class="col-md-12 col-lg-12" id="curso">
     <div class="form-group">
-    <label for="email">Cursos<span class="text-danger">*</span></label>
+    <label for="email">Áreas<span class="text-danger">*</span></label>
  <input type="checkbox" name="idcur[]" class="form-control">
     <small id="emailHelp" class="form-text text-muted"><span class="text-danger">Importante rellenar los campos.</span></small>
 </div>  
